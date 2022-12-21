@@ -1,0 +1,147 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.body{
+  background-color: rgb(204, 210, 216);
+  margin:5%;
+  padding: 5%;
+  margin-top: 0%;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.form{
+  width: 100%;
+  padding:2%;
+  display:flex;
+  flex-direction: column;
+  gap:10%;
+  border-radius: 1%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.s1{
+  display:flex;
+  width: 100%;
+  flex-direction: row;
+  gap:19%;
+  align-items: center;
+  margin-left: -0%;
+  flex-wrap: wrap;
+}
+
+.s2{
+  display:flex;
+  flex-direction: row;
+  gap:10%;
+  align-items: center;
+  margin-left: -0%;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.input1{
+  padding: 5%;
+  width:20vw;
+  flex-wrap: wrap;
+}
+
+.input2{
+  padding: 5%;
+  width:20vw;
+  flex-wrap: wrap;
+}
+
+.task{
+
+  flex-wrap: wrap;
+}
+
+.inputs{
+  display:flex;
+  flex-direction:column;
+  row-gap:50px;
+  margin-left: 0%;
+  flex-wrap: wrap;
+}
+
+.btn{
+  width:25%;
+  background-color: blue;
+  color:white;
+  padding: 3%;
+    border-color: white;
+  border-style: none;
+  font-weight: bold;
+  flex-wrap: wrap;
+  font-size: 1.2vw;
+}
+
+.top{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 50%;
+  overflow: hidden;
+  flex-wrap: wrap;
+  padding: 5%;
+}
+
+.butn{
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  margin-left: 5%;
+  flex-wrap: wrap;
+}
+
+.list{
+  display:flex;
+  flex-direction: row;
+  justify-self:center;
+  align-items: center;
+  gap:30%;
+  padding: 10%;
+}
